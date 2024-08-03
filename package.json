@@ -1,13 +1,13 @@
 {
-  "name": "helioslauncher",
-  "version": "2.2.1",
-  "productName": "Helios Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "name": "idiotsslauncher",
+  "version": "0.1.0",
+  "productName": "IDIOTSS Launcher",
+  "description": "IDIOTSS Minecraft Launcher",
+  "author": "Daniel Scalzi (https://github.com/dscalzi/), Isaac (https://github.com/banna12345bob/)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "https://github.com/I-D-I-O-T-S-S/IDIOTSSLauncher",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/I-D-I-O-T-S-S/IDIOTSSLauncher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/I-D-I-O-T-S-S/IDIOTSSLauncher.git"
   }
 }
