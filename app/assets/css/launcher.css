@@ -2166,6 +2166,12 @@ input:checked + .toggleSwitchSlider:before {
     padding-left: 10px;
 }
 
+#settingsAboutSubtitle {
+    font-size: 10px;
+    padding-left: 10px;
+    bottom: 0;
+}
+
 /* Current version container. */
 #settingsAboutCurrentVersion {
     display: flex;
@@ -3134,43 +3140,6 @@ input:checked + .toggleSwitchSlider:before {
     visibility: visible;
     opacity: 1;
     transition-delay:0s;
-}
-
-/* Twitter icon colors. */
-#twitterSVG:hover,
-#twitterURL:focus #twitterSVG {
-    fill: #1da1f2;
-}
-#twitterSVG:active {
-    fill: #1b8dd4;
-}
-
-/* Instagram icon colors. */
-#instagramSVG:hover,
-#instagramURL:focus #instagramSVG {
-    fill: url('#instaFill')
-    /*fill: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); */
-}
-#instagramSVG:active {
-    fill: url('#instaFill')
-}
-
-/* Youtube icon colors. */
-#youtubeSVG:hover,
-#youtubeURL:focus #youtubeSVG {
-    fill: #f00;
-}
-#youtubeSVG:active {
-    fill: #ea0202;
-}
-
-/* Discord icon colors. */
-#discordSVG:hover,
-#discordURL:focus #discordSVG {
-    fill: #7288d9;
-}
-#discordSVG:active {
-    fill: #657ac4;
 }
 
 /*******************************************************************************
