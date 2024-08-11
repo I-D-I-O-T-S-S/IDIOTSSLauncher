@@ -42,6 +42,8 @@ const user_text               = document.getElementById('user_text')
 
 const loggerLanding = LoggerUtil.getLogger('Landing')
 
+clicks = 0
+
 /* Launch Progress Wrapper Functions */
 
 /**
@@ -139,6 +141,18 @@ document.getElementById('avatarOverlay').onclick = async e => {
     switchView(getCurrentView(), VIEWS.settings, 500, 500, () => {
         settingsNavItemListener(document.getElementById('settingsNavAccount'), false)
     })
+}
+
+document.getElementById('image_seal_container').onclick = async e => {
+    console.log(clicks)
+    if (clicks >= 10) {
+        image_seal = document.getElementById("image_seal")
+        image_seal.src = "assets/images/hay.jpg"
+        body = document.getElementById("body")
+        body.style = "background-image: url('assets/images/hayBK.png');"
+    } else {
+        clicks++
+    }
 }
 
 // Bind selected account

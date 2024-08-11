@@ -2878,6 +2878,10 @@ input:checked + .toggleSwitchSlider:before {
     margin-top: 50px;
 }
 
+#image_seal_container:hover {
+    scale: 125%;
+}
+
 /* Logo container styles w/ update. */
 #image_seal_container[update]{
     cursor: pointer
