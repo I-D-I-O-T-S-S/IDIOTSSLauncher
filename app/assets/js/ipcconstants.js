@@ -2,11 +2,11 @@
 // REPLACE THIS CLIENT ID WITH YOUR APPLICATION ID.
 // SEE https://github.com/dscalzi/HeliosLauncher/blob/master/docs/MicrosoftAuth.md
 // Helio's ID change for full release
-exports.AZURE_CLIENT_ID = '1ce6e35a-126f-48fd-97fb-54d143ac6d45'
+// exports.AZURE_CLIENT_ID = '1ce6e35a-126f-48fd-97fb-54d143ac6d45'
 // SEE NOTE ABOVE.
 
 // IDIOTSS ID
-// exports.AZURE_CLIENT_ID = 'f5776625-9acd-4220-9772-0b40b5f52181'
+exports.AZURE_CLIENT_ID = 'f5776625-9acd-4220-9772-0b40b5f52181'
 
 
 // Opcodes
