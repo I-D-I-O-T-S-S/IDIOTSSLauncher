@@ -149,7 +149,9 @@ document.getElementById('image_seal_container').onclick = async e => {
         image_seal = document.getElementById("image_seal")
         image_seal.src = "assets/images/hay.jpg"
         body = document.getElementById("body")
-        body.style = "background-image: url('assets/images/hayBK.png');"
+        body.style = "background-image: url('assets/images/hayBK1.png');"
+        avatarContainer = document.getElementById("avatarContainer")
+        avatarContainer.style = "background-image: url('assets/images/hay2.jpg');"
     } else {
         clicks++
     }
