@@ -59,7 +59,7 @@ ipcMain.on('autoUpdateAction', (event, arg, data) => {
             event.sender.send('autoUpdateNotification', 'ready')
             break
         case 'checkForUpdate':
-            autoUpdater.checkForUpdates()
+            autoUpdater.checkForUpdatesAndNotify()
                 .catch(err => {
                     event.sender.send('autoUpdateNotification', 'realerror', err)
                 })
